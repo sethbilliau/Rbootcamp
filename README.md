@@ -12,6 +12,6 @@ RStudio is an integrated development environment (IDE) that allows you to write 
 Using RStudio, open the Rbootcamp.R file and follow along. 
 
 ## Acknowledgements
-Stat 111 RBootcamp 
+Stat 111 RBootcamp
 Vincent Viego, my Math 23c partner last year
 
