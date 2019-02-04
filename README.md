@@ -9,7 +9,7 @@ As a powerful, free language built by statisticians for statisticians, R is an i
 RStudio is an integrated development environment (IDE) that allows you to write code, make graphics, access files, etc. 
 
 ## Your First R Script
-Using RStudio, open the Rbootcamp.R file and follow along. 
+First, clone or download this repository. Using RStudio, open the Rbootcamp.R file and follow along. 
 
 ## Acknowledgements
 Stat 111 RBootcamp
