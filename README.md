@@ -9,7 +9,7 @@ As a powerful, free language built by statisticians for statisticians, R is an i
 RStudio is an integrated development environment (IDE) that allows you to write code, make graphics, access files, etc. 
 
 ## Your First R Script
-Using RStudio, open the Rbootcamp.R file and follow along. 
+First, clone or download this repository. Using RStudio, open the Rbootcamp.R file and follow along. 
 
 ## Acknowledgements & Other Resources
 Solutions are in the other resources folder. 
@@ -19,4 +19,5 @@ The Harvard Open Data Project provided the first dataset in this bootcamp. (Full
 The more advanced Stat 111 RBootcamp is in the other resources folder. It was created by great TFS in that class (Sundar Solai, Shaoyang Ning, Everett Sussman). It's a great resource if you want to learn ggplot2 ? something we won't really teach in this course, but you're welcome to learn to improve your graphics. We encourage you to use ggplot in your final projects. 
 
 Vincent Viego, my Math 23c partner last year deserves credit for his contributions to our final project. He's a fantastic data scientist and software engineer. 
+
 
