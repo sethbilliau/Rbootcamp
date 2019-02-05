@@ -10,8 +10,14 @@
 # Note that unlike a language like OCaml, floats (decimals) can be added/subtracted/etc. to integers
 1.5 + 3; 4 - 1.3; 5 * 2.5; 3 / 2.5; 10 %% 2.5; 2.4^2
 
+# We can also do computer logic with ! <- not, == <- equals, | <- or, & <- and, T <- True, F <- False
+1.5 == 2; !T
+
 # Variable assignment in R is done with <- or =. In this class, we usually deal with variables 
 # that are vectors or matrices.
+x <- 2; x
+
+
 
 # x is a vector of length 3 while z is a 3x3 matrix
 x = c(72,34,19); x
