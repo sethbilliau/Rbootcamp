@@ -20,8 +20,8 @@ x <- 2; x
 
 
 # x is a vector of length 3 while z is a 3x3 matrix
-x = c(72,34,19); x
-z = cbind(c(1,2,3),c(4,5,6),c(7,8,9)); z
+x <- c(72,34,19); x
+z <- cbind(c(1,2,3),c(4,5,6),c(7,8,9)); z
 
 # The c() command combines values into a vector, 
 # cbind binds vectors together as columns to form a matrix (array of like type ie. all numbers, bools, etc.)
