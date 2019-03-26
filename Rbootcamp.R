@@ -13,11 +13,8 @@
 # We can also do computer logic with ! <- not, == <- equals, | <- or, & <- and, T <- True, F <- False
 1.5 == 2; !T
 
-# Variable assignment in R is done with <- or =. In this class, we usually deal with variables 
-# that are vectors or matrices.
+# Variable assignment in R is done with <- or =. We usually deal with variables that are vectors or matrices.
 x <- 2; x
-
-
 
 # x is a vector of length 3 while z is a 3x3 matrix
 x <- c(72,34,19); x
@@ -49,8 +46,8 @@ myfn0(z)
 fun <- function(x) x^2*cos(x)
 plot(fun, xlim=c(-pi,pi), ylim=c(-2,2))
 
-# In this class, we will usually be plotting canonical stats distributions you'll learn about 
-# later. As a preview, here's a plot of the standard normal distribution. 
+# You can also plot canonical stats distributions you've learned about in classes
+# Here's a plot of the standard normal distribution. 
 
 norm <- function(x) dnorm(x, mean=0, sd=1) 
 plot(norm, xlim=c(-3,3))
@@ -98,7 +95,7 @@ mydataframe$q[2]
 # For example, delete row 1
 mydataframe = mydataframe[-1,]; mydataframe
 
-# P.S. to check the type of a variable, use class()
+# P.S. to check the type of a variable, use ()
 class("Seth")
 class(T)
 
@@ -153,8 +150,7 @@ which(concentration == "Applied Mathematics")
 
 # DO **BONUS**: One of the goals of my project was to see if female-identifying people asking for grants
 # received less money than male-identifying people. Assuming that there is no difference between 
-# genders and grant amounts, we can use a chisquare test. (If you don't understand this now, it'll
-# be explained in class a bit later in the course). Read the documentation on the chisq.test(). 
+# genders and grant amounts, we can use a chisquare test. Read the documentation on the chisq.test(). 
 # See if you can convert the amount column into a logical variable that will be True if an amount is 
 # above the median, False else. Then, using chisq.test(), compare this column with the gender column.
 # This can be done in one line of code.
