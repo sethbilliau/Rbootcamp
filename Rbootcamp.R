@@ -176,11 +176,3 @@ predict(mod, data.frame(Murder = c(20,22)))
 
 # DO: try to use rape to predict the number of murders using rape = 2 and 4
 
-
-
-#f
-
-
-#g
-mod = lm(Assault ~ Murder + UrbanPop, data = USArrests)
-lm(mod)
