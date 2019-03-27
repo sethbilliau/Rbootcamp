@@ -156,4 +156,31 @@ which(concentration == "Applied Mathematics")
 # This can be done in one line of code.
 ?chisq.test
 
+# Building off of Stephen's bootcamp on data journalism, you can also do Linear regression using R. 
+# We are going to be using the USArrests dataset that's already hardcoded into R. 
+str(USArrests)
 
+# Suppose that we want to predict how many assaults there are going to be in the US using the number 
+# of murders as our covariate/independent variable. We can first plot the relationship between these 
+# two vectors as follows 
+plot(Assault ~ Murder, data = USArrests)
+
+# This looks like a good candidate for linear regression. We can use the lm command to create a linear
+# model and plot it.
+mod = lm(Assault ~ Murder, data = USArrests)
+s = summary(mod)
+abline(mod, col = "red")
+
+# We can now predict the number of assaults based on 20 and 22 murders. 
+predict(mod, data.frame(Murder = c(20,22)))
+
+# DO: try to use rape to predict the number of murders using rape = 2 and 4
+
+
+
+#f
+
+
+#g
+mod = lm(Assault ~ Murder + UrbanPop, data = USArrests)
+lm(mod)
