@@ -138,7 +138,7 @@ which(concentration == "Applied Mathematics")
 ?write.csv()
 
  
-# DO: As a final exercise, you will be using the dataset I used for my final R project on Kiva 
+# DO: Next, you will be using the dataset I used for my final R project on Kiva 
 # microfinance loans. You should load the file using read.csv. Clean the data by deleting 
 # the erroneous X and "lamount" columns. Then, visualize the data by plotting a histogram  
 # of loan values with breaks="fd" and xlim = c(0,10000). Title your graph using main= and label the 
@@ -148,7 +148,7 @@ which(concentration == "Applied Mathematics")
 
 
 
-# DO **BONUS**: One of the goals of my project was to see if female-identifying people asking for grants
+# DO: One of the goals of my project was to see if female-identifying people asking for grants
 # received less money than male-identifying people. Assuming that there is no difference between 
 # genders and grant amounts, we can use a chisquare test. Read the documentation on the chisq.test(). 
 # See if you can convert the amount column into a logical variable that will be True if an amount is 
