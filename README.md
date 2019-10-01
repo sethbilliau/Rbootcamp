@@ -2,7 +2,7 @@
 
 ## What is R?
 
-As a powerful, free language built by statisticians for statisticians, R is an important tool for data scientists and statisticians like us. R is also extremely useful for other tasks like web development through the use of packages. See https://syllabusexplorer.harvard.edu/ or https://r4ds.had.co.nz/index.html for examples of websites and apps built with R Shiny.
+As a powerful, free language built by statisticians for statisticians, R is an important tool for data scientists and statisticians like us. R is also extremely useful for other tasks like web development through the use of packages. See https://syllabusexplorer.harvard.edu/, https://r4ds.had.co.nz/index.html or https://sbilliau.shinyapps.io/Genetics/ for examples of websites and apps built with R.
 
 ## What is RStudio?
 
@@ -14,8 +14,10 @@ First, clone or download this repository. Using RStudio, open the Rbootcamp.R fi
 ## Acknowledgements & Other Resources
 Solutions are in the other resources folder. 
 
-The more advanced Stat 111 RBootcamp is in the other resources folder. It was created by great TFS in that class (Sundar Solai, Shaoyang Ning, Everett Sussman). It's a great resource if you want to learn ggplot2 – something we won't really teach in this course, but you're welcome to learn to improve your graphics. We encourage you to use ggplot in your final projects. 
+The S2019 Stat 111 RBootcamp is in the other resources folder. It was created by great TFS in that class (Sundar Solai, Shaoyang Ning, Everett Sussman). It's a great resource as well. 
 
-Vincent Viego, my Math 23c partner last year deserves credit for his contributions to our final project.
+Vincent Viego, my Math 23c partner in S2018 deserves credit for his contributions to the Kiva project.
+
+The dataset for house data is from the F2019 iteration of Stat 139.
 
 
